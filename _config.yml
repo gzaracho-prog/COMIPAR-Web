@@ -5,3 +5,10 @@ baseurl: "/COMIPAR-Web"
 url: "https://gzaracho-prog.github.io"
 
 theme: minima
+
+header_pages:
+  - quienes-somos.md
+  - noticias.md
+  - blog.md
+  - participa.md
+  - contacto.md
