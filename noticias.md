@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Quiénes somos
-permalink: /quienes-somos/
+title: Noticias
+permalink: /noticias/
 ---
 
 Contenido en preparación.
