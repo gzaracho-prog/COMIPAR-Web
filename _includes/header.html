@@ -1,1 +1,18 @@
-Cabecera personalizada en preparación
+<header class="custom-header">
+  <div class="header-container">
+
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <img src="{{ '/logo-comipar.png' | relative_url }}" alt="Logo COMIPAR" class="header-logo">
+      <span>COMIPAR</span>
+    </a>
+
+    <nav class="custom-nav">
+      <a href="{{ '/quienes-somos/' | relative_url }}">Quiénes somos</a>
+      <a href="{{ '/noticias/' | relative_url }}">Noticias</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/participa/' | relative_url }}" class="nav-button">Participa</a>
+      <a href="{{ '/contacto/' | relative_url }}">Contacto</a>
+    </nav>
+
+  </div>
+</header>
