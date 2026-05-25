@@ -4,8 +4,4 @@ email: comipar10@gmail.com
 baseurl: "/COMIPAR-Web"
 url: "https://gzaracho-prog.github.io"
 
-remote_theme: jekyll/minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+theme: minima
