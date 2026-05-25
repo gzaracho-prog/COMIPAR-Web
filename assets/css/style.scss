@@ -1,0 +1,66 @@
+---
+---
+
+@import "minima";
+
+/* COLORES COMIPAR */
+:root {
+  --azul-comipar: #003366;
+  --rojo-comipar: #D62828;
+  --blanco: #FFFFFF;
+  --gris-claro: #F5F5F5;
+  --amarillo: #F4C542;
+}
+
+/* GENERAL */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--gris-claro);
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.site-header {
+  background: var(--azul-comipar);
+  border-top: 5px solid var(--rojo-comipar);
+}
+
+.site-title,
+.site-nav a {
+  color: white !important;
+}
+
+/* TITULOS */
+h1, h2, h3 {
+  color: var(--azul-comipar);
+}
+
+/* BOTONES */
+a {
+  color: var(--rojo-comipar);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENIDO */
+.page-content {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+.site-footer {
+  background: var(--azul-comipar);
+  color: white;
+}
+
+.site-footer a {
+  color: white;
+}
