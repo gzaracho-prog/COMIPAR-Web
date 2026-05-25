@@ -4,12 +4,6 @@ title: Noticias
 permalink: /noticias/
 ---
 
----
-layout: page
-title: Noticias
-permalink: /noticias/
----
-
 ## Actualidad de COMIPAR
 
 Sigue aquí las noticias, comunicados y novedades relacionadas con la migración paraguaya y las actividades de COMIPAR.
