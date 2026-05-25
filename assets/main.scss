@@ -215,5 +215,68 @@ a:hover {
 }
 
 .site-footer a {
+
+  /* CABECERA PERSONALIZADA */
+.custom-header {
+  background: var(--azul-comipar);
+  border-top: 4px solid var(--rojo-comipar);
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white !important;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.header-logo {
+  width: 48px;
+  height: auto;
+  margin-right: 12px;
+  border-radius: 8px;
+  background: white;
+  padding: 4px;
+}
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.custom-nav a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-nav a:hover {
+  color: var(--amarillo) !important;
+}
+
+.nav-button {
+  background: var(--rojo-comipar);
+  padding: 10px 18px;
+  border-radius: 6px;
+}
+
+.nav-button:hover {
+  background: #b30000;
+}
   color: white;
 }
