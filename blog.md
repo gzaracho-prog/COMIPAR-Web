@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quiénes somos
+title: Blog
 permalink: /quienes-somos/
 ---
 
