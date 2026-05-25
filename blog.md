@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: /quienes-somos/
+permalink: /blog/
 ---
 
 Contenido en preparación.
