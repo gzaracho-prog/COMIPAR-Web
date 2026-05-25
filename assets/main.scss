@@ -60,6 +60,124 @@ a:hover {
   background: var(--azul-comipar);
   color: white;
 }
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,51,102,0.75), rgba(0,51,102,0.75)),
+              url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  color: white;
+  font-weight: 300;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+/* BOTONES */
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--rojo-comipar);
+  color: white !important;
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--azul-comipar) !important;
+}
+
+/* SECCIONES */
+.section {
+  padding: 70px 20px;
+}
+
+.section.light {
+  background: var(--gris-claro);
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* TARJETAS */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  max-width: 300px;
+}
+
+/* IMPACTO */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stats div {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 180px;
+}
+
+.stats strong {
+  display: block;
+  font-size: 2rem;
+  color: var(--rojo-comipar);
+}
+
+.stats span {
+  font-size: 0.9rem;
+}
+
+/* CONTACTO */
+.contact {
+  text-align: center;
+}
 
 .site-footer a {
   color: white;
